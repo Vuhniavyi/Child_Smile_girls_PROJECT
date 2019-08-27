@@ -1,0 +1,1558 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Ubuntu;
+}
+
+button {
+      border: none;    
+}
+
+
+li {
+    list-style: none;
+}
+
+body {
+    max-width: 1920px;
+    line-height: 1.4
+}
+
+
+/*End navigation*/
+/*Modal1*/
+
+#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    background-color: rgba(0, 0, 0, .6);
+    display: none;
+    z-index: 100;
+}
+#modal .modal-content {
+    background-color: #fff;
+    max-width: 463px;
+    height: 413px;
+    margin: auto;
+    position: relative;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    padding: 24px 55px 54px 50px;
+}
+
+#modal .modal-content h2 {
+    color: #3E3E3E;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: 0.03em;
+}
+
+#modal .modal-content p {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 16px;
+      color: #3E3E3E;
+}
+
+#modal .modal-content input {
+    width: 100%;
+    padding-bottom: 6px;
+    border: none;
+    border-bottom: 1px solid #A0A0A0;
+    font-family: Gilroy-Regular; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 14px;
+    color: #A6A6A6;
+    margin-bottom: 28px;
+    outline: none;
+    text-align: center;
+}
+
+#modal .modal-content button {
+    background-color: #CB2F2C;
+    font-size: 100%;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    width: 346px;
+    height: 61px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+
+#modal .modal-content .do-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    top: -35px;
+    right: -30px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.zoom {
+    animation: zoom 0.5s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 760px) {
+
+#modal .modal-content input {
+    width: 100%;
+}
+
+#modal .modal-content {
+            top: 105px;
+
+}
+}
+
+
+@media screen and (max-width: 660px) {
+
+#modal .modal-content {
+    max-width: 317px;
+    height: 520px;
+    margin-top: 20%;
+}
+
+
+#modal .modal-content button {
+    width: 212px; 
+}
+
+#modal .modal-content input {
+    width: 100%;
+}
+}
+/*End modal1*/
+
+
+
+/*start block1*/
+/*Start navigation*/
+.navbar{
+    background: #fff;
+    opacity: 0.95;
+}
+
+.nav-gift {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #F43834;
+    margin-bottom: 0rem;
+}
+
+.nav-number {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #D14340;
+}
+
+.nav-link:hover{
+    background: #f4f4f4;
+    color: #f97300;
+    cursor: pointer;
+}
+
+
+
+.navbar-contacts {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: flex-end;
+    color: #453F43;
+    margin: 20px;
+        display: flex;
+
+}
+
+.nav-item {
+    display: flex;
+       cursor: pointer;
+
+}
+
+.navbar-collapse{
+    justify-content: space-around;
+
+}
+
+.navbar-toggler{
+    background:#fff;
+}
+
+
+
+/*End navigation*/
+
+/*block1WithoutNav*/
+
+
+.block1WithoutNav {
+background: url("./pictures/background.png");
+
+}
+
+
+
+
+.interestanddiscountblock1 {
+    display: flex;
+    margin-top: -2px;
+}
+
+.wrapper {
+    display: flex;
+    width: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.allblock1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftblock1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+position: relative;
+    left: -288px;
+       margin-top: 120px;
+margin-bottom: 60px;
+}
+
+.frendy1block1 {
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 48px;
+
+color: #444343;
+}
+
+.discount1block1 {
+font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 52px;
+color: #F14568;
+position: relative;
+    top: 14px;
+}
+
+.interest1photo {
+    position: relative;
+    top: -40px;
+    left: 10px;
+}
+
+
+
+/*form*/
+
+.form {
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #3E3E3E;
+position: relative;
+bottom: 70px;
+
+
+}
+
+form, input {
+    font-size: 25px;
+}
+
+input {
+    width: 354px;
+    height: 46px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 10px;
+
+    background: rgba(255, 92, 219, 0.11);
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 5px;
+
+}
+
+label {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ .orderbuttonblock1 {
+    color: #fff;
+    width: 352px;
+    height: 61px;
+    background: #F14568;
+border-radius: 5px;
+ }
+
+ .bigbag1 {
+        top: 26px;
+    position: relative;
+left: 44px;
+}
+
+.logo1photo {
+ position: relative;
+    top: 25px;
+    right: 25px;
+}
+
+
+
+/*tabsblock1*/
+
+.tabs-place { 
+    
+    padding-top: 0px; 
+    position: relative; 
+    left: 275px;
+} 
+
+.test { 
+    display: none;  
+    background: white; 
+    position: absolute; 
+    top: -44px;
+    left: -499px; 
+    z-index: 0;
+
+} 
+
+.phototab1 {
+    z-index: 0;
+    
+}
+
+.tabs-place input { 
+    display: none; 
+} 
+
+.tabs-place label { 
+    display: block; 
+    width: 55px; 
+    height: 55px;
+    color: #4F5966;
+    background: #fff; 
+    margin-bottom: 30px;
+} 
+
+button {
+    cursor: pointer; 
+}
+
+input:checked + label { 
+border: 1px solid red;
+border-radius: 10px;
+} 
+
+.minipicback {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.minipic {
+    z-index: 1
+}
+
+
+#tab1block1:checked ~ #content1block1, #tab2block1:checked ~ #content2block1, #tab3block1:checked ~ #content3block1, #tab4block1:checked ~ #content4block1 { 
+    display: block; 
+} 
+
+
+.test { 
+    animation: scale 0.7s ease-in-out; 
+} 
+
+@keyframes scale { 
+  0% { 
+  transform: scale(0.9); 
+  opacity: 0; 
+  } 
+  50% { 
+  transform: scale(1.005); 
+  opacity: 0.5; 
+  } 
+  100% { 
+  transform: scale(1); 
+  opacity: 1; 
+  } 
+}
+
+/*endtabsblock1*/
+
+/*block2*/
+
+/*tabs*/
+.toggle1 {
+    display: flex;
+    flex-direction: column;
+        margin-bottom: 36px;
+
+}
+
+.toggle1 .tabs1 {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+
+}
+.toggle1 .tabs1 .tab1 {
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        color: rgba(68, 67, 67, 0.75);
+        cursor: pointer;
+            position: relative;
+    top: -4px;
+}
+.toggle1 .tabs1 .tab1.active {
+    color: #F43834;
+    border-bottom: 3px solid #F43834;
+    margin-right: 40px;
+    margin-left: 40px;
+
+
+}
+.toggle1 .panels1 .panel1 {
+    padding: 35px 10px;
+      display: none;
+}
+.toggle1 .panels1 .panel1:first-child {
+  display: block;
+}
+
+/*endtabs*/
+
+/*slider2*/
+
+.block2 {
+    margin-top: 30px;
+}
+
+.textblock2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+
+}
+
+.topsale1 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 48px;
+    color: #444343;
+}
+
+.description1 {
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+color: #444343;
+    margin: 8px 0px;
+}
+
+section .block2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-slide .betman {
+left: 10px;
+    display: block;
+    margin: auto;
+    position: relative;
+        margin-top: 20px;
+    margin-bottom: 23px;
+}
+
+.item1 {
+    text-align: center;
+}
+
+.betmantext1 {
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #444343;
+margin: -11px 0px 4px;
+}
+
+.price1 {
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #444343;
+}
+
+.orderbuttonmini {
+    padding: 7px 25px;
+        margin-bottom: 18px;
+        background: #F14568;
+border-radius: 5px;
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: #FFFFFF;
+}
+
+.discountphoto {
+    position: absolute;
+    width: 137px;
+    height: 136px;
+    bottom: -10px;
+        margin-left: 6px;
+
+}
+/*endblock2*/
+
+/*startblock3*/
+
+.block3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("./pictures/background.png");
+    padding: 130px 0px;
+}
+
+.block3text1inside{
+font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 56px;
+line-height: 64px;
+text-align: center;
+color: #444343;
+}
+
+.block3text2inside {
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 32px;
+text-align: center;
+color: #444343;
+}
+
+.block3text3inside {
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 38px;
+text-align: center;
+color: #444343;
+}
+
+.giftbox {
+    position: relative;
+    right: 20px;
+}
+
+.block3right {
+    position: relative;
+    left: 20px;
+}
+
+
+/*endblock3*/
+
+
+/*startblock4*/
+
+.block4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomblock4 {
+    display: flex;
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1140px;
+background: #F16184;
+padding: 40px 70px;
+margin: 20px 0px;
+}
+
+
+.interestanddiscountblock4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+
+.uniqueoffer1 {
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 56px;
+line-height: 64px;
+color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 19px;
+    text-align: center;
+
+}
+
+.forjewelry1block4 {
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 48px;
+text-align: center;
+color: #444343;
+}
+
+.discountleft1block4 {
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 41px;
+text-decoration-line: line-through;
+color: #FFFFFF;
+opacity: 0.89;
+    margin-right: 16px;
+
+}
+
+.discountright1block4 {
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 52px;
+color: #FFFFFF;
+}
+
+.wrapperblock4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formblock4 {
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #3E3E3E;
+position: relative;
+
+}
+
+.formblock4 input {
+    background: #F8E7F6;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 5px
+}
+
+.orderbuttonblock4 {
+    color: #fff;
+    width: 352px;
+    height: 61px;
+    background: #F12E03;
+border-radius: 5px;
+}
+
+.block4left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        margin-top: -30px;
+    right: 20px;
+
+}
+
+.remainsandamount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.remainstext {
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #3E3E3E;
+opacity: 0.85;
+margin-right: 15px;
+}
+
+.amounttext {
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 24px;
+letter-spacing: -0.06em;
+color: #FFFFFF;
+opacity: 0.85;
+}
+
+.block4right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+        left: 12px;
+
+}
+
+.discountblock4 {
+    position: absolute;
+    bottom: 125px;
+    right: 253px;
+}
+
+.countdownwithtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
+.toendtext {
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #3E3E3E;
+opacity: 0.85;
+position: relative;
+top: 10px;
+    margin-right: 20px;
+
+}
+
+
+
+/*countdown*/
+.countdown-w {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.countdown-w .hours,
+.countdown-w .minutes,
+.countdown-w .seconds,
+.countdown-w .milli {
+  font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 24px;
+/* or 63% */
+
+display: flex;
+justify-content: center;
+align-items: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+opacity: 0.85;
+}
+/*endcountdown*/
+
+/*endblock4*/
+
+
+
+/*startblock5*/
+
+.block5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 119px 10px;
+background: url("./pictures/background.png");
+}
+
+.howtoordertext{
+font-family: Ubuntu;
+font-style: normal;
+font-weight: bold;
+font-size: 56px;
+line-height: 64px;
+color: #444343;
+opacity: 0.88;
+text-align: center;
+margin-bottom: 29px;
+}
+
+.howtoorderphotos{
+    display: flex;
+}
+/*endblock5*/
+
+/*startblock6*/
+
+/*same as block 2*/
+
+/*endblock6*/
+
+/*startblock7*/
+
+.block7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("./pictures/background.png");
+    padding: 50px 0px;    
+}
+
+.feedback {
+    font-weight: 600;
+    font-size: 290%;
+    color: #3E3E3E;
+    margin-bottom: 2%;
+}
+
+/*slider*/
+
+
+.clients-slider3 {
+    max-width: 1048px;
+    height: 249px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.clients-slider3  .item {
+    width: 220px;
+    height: 228px;
+    background: #fff;
+    margin-right: 20px;
+    position: relative;
+    z-index: 50;
+    box-shadow: 22px 22px 15px -20px #FF8A00;
+}
+
+.clients-slider3  .item  .ava {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background: #FFFFFF;
+            margin: 0px auto;
+
+    box-shadow: inset 0px -4px 4px 1px rgba(0, 0, 0, 0.25)
+
+}
+
+.clients-slider3  .item .avatext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-slider3  .item .avatext h6 {
+    font-family: Avenir Next Cyr;
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 8px;
+    letter-spacing: 0.1em;
+    color: #353535;
+}
+
+.clients-slider3  .item .avatext p {
+    font-family: Avenir Next Cyr;
+    font-size: 17px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #353535;
+}
+/*end slider*/
+
+/*endblock7*/
+
+/*startblock8*/
+
+
+/*endblock8*/
+
+
+
+/*tabsblock1*/
+
+.tabs-place1 { 
+    
+    padding-top: 0px; 
+    position: relative; 
+    left: 275px;
+} 
+
+.test1 { 
+    display: none;  
+    background: white; 
+    position: absolute; 
+    top: -89px;
+    left: -480px; 
+    z-index: 0;
+} 
+
+.phototab11 {
+    z-index: 0;
+    left: -19px;
+    top: 45px;
+    position: relative;
+}
+
+.tabs-place1 input { 
+    display: none; 
+} 
+
+.tabs-place1 label { 
+    display: block; 
+    width: 55px; 
+    height: 55px;
+    color: #4F5966;
+    background: #fff; 
+    margin-bottom: 30px;
+} 
+
+button {
+    cursor: pointer; 
+}
+
+input:checked + label { 
+border: 1px solid red;
+border-radius: 10px;
+} 
+
+.minipicback1 {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.minipic1 {
+    z-index: 1
+}
+
+#content1block8 {
+      display: block; 
+}
+
+#tab1block8:checked ~ #content1block8, #tab2block8:checked ~ #content2block8, #tab3block8:checked ~ #content3block8, #tab4block8:checked ~ #content4block8 { 
+    display: block; 
+} 
+
+.test1 { 
+    animation: scale 0.7s ease-in-out; 
+} 
+
+@keyframes scale { 
+  0% { 
+  transform: scale(0.9); 
+  opacity: 0; 
+  } 
+  50% { 
+  transform: scale(1.005); 
+  opacity: 0.5; 
+  } 
+  100% { 
+  transform: scale(1); 
+  opacity: 1; 
+  } 
+}
+
+/*startblock9*/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #EEEEEE;
+}
+
+.infa {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 18px;
+    width: 78%;
+
+}
+
+.address {
+    display: flex;
+}
+
+.mobiletel {
+    display: flex;
+}
+
+
+
+.onmap {
+    margin: -4px 8px;
+}
+
+.telnum {
+        margin: -4px 8px;
+}
+
+.telef, .onmaptext {
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+letter-spacing: 0.03em;
+
+color: #464646;
+}
+
+.conferential {
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+text-decoration-line: underline;
+
+color: #1493C4;
+
+opacity: 0.87;
+    margin-bottom: 41px;
+    margin-top: 10px;
+}
+/*endblock9*/
+
+
+
+///////////////////////////////////////////////////////
+
+
+@media screen and (max-width: 1445px) {
+.discountphoto {
+    margin-left: -40px;
+}
+}
+
+
+@media screen and (max-width: 1195px) {
+.discountphoto {
+    margin-left: -61px;
+}
+}
+
+
+@media screen and (max-width: 1050px) {
+
+.nav-gift {
+display: none;
+}
+
+.nav-item {
+    display: none;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-number {
+    position: relative;
+    left: 174px;
+}
+
+.tabs-place {
+        left: 0px;
+            top: 60px;
+}
+
+.phototab1 {
+    width: 350px;
+    height: 350px;
+    le
+
+}
+
+.test {
+    left: 63px;
+}
+
+.allblock1 {
+    position: relative;
+}
+
+
+
+.leftblock1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 120px;
+    margin-bottom: 60px;
+    right: 71px;
+    margin-left: 86px;
+    left: 0px;
+}
+
+
+
+.allblock1 {
+    justify-content: start;
+}
+
+.giftbox {
+    right: -17px;
+}
+
+.block3right {
+    left: -10px;
+}
+
+.order {
+    width: 220px;
+    height: 228px;
+}
+
+.clients-slider3 {
+  width: 820px;
+  height: 207px;
+}
+
+
+.tabs-place1 {
+        left: 0px;
+            top: 60px;
+}
+
+.phototab11 {
+    width: 350px;
+    height: 350px;
+
+}
+
+.test1 {
+    left: 63px;
+}
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 880px) {
+
+.allblock1 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.leftblock1 {
+ 
+    margin-top: 120px;
+    margin-bottom: 0px; 
+    right: 71px;
+     margin-left: 0px;
+}
+
+.tabs-place {
+        left: -190px;
+            top: 10px;
+}
+
+.allblock1 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.tabs-place1 {
+        left: -190px;
+            top: 20px;
+}
+
+.block3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottomblock4 {
+    flex-direction: column;
+}
+
+
+.howtoorderphotos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.order {
+    width: 310px;
+    height: 330px;
+}
+
+.infa {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.logo1{
+    display: none;
+}
+
+.clients-slider3 {
+  width: 670px;
+  height: 207px;
+}
+}
+
+
+@media screen and (max-width: 695px) {
+.clients-slider3 .item .ava {
+    height: 80px;
+    width: 80px;
+}
+
+.clients-slider3 {
+  width: 430px;
+  height: 207px;
+}
+
+.stars{
+    width: 315px;
+    height: 103px;
+}
+
+.feedback {
+    font-size: 240%;
+}
+
+.nav-number {
+    position: relative;
+    left: 78px;
+}
+
+.phototab1 {
+    width: 280px;
+    height: 280px;
+}
+
+
+.test {
+top: 10px;
+}
+.tabs-place {
+        left: -150px;
+            top: 10px;
+}
+
+.phototab11 {
+    width: 280px;
+    height: 280px;
+}
+.test1 {
+top: -40px;
+}
+.tabs-place1 {
+        left: -150px;
+            top: 10px;
+}
+
+.block3text3inside {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: center;
+    color: #444343;
+}
+
+.block3text1inside {
+    display: none;
+}
+
+.infa {
+    flex-direction: column;
+}
+
+.address {
+    margin-bottom: 10px;
+}
+}
+
+
+@media screen and (max-width: 440px) {
+.nav-number {
+    position: relative;
+    left: 54px;
+}
+
+.discount1block1 {
+    font-size: 27px;
+}
+
+.formblock4 input  {
+    width: 270px;
+}
+
+.form input  {
+    width: 270px;
+}
+
+
+.frendy1block1 {
+    font-size: 35px;
+}
+
+.orderbuttonblock1 {
+        width: 270px;
+}
+
+.phototab1 {
+    width: 230px;
+    height: 230px;
+}
+
+.test {
+top: 20px;
+}
+.tabs-place {
+        left: -125px;
+            top: 10px;
+}
+
+.giftbox {
+    right: 0px;
+    width: 250px;
+    height: 230px;
+}
+
+.block3text3inside {
+    font-size: 11px;
+}
+
+.orderbuttonblock4 {
+    width: 270px;
+}
+
+.block3 {
+    margin: -43px 0px;
+}
+
+.uniqueoffer1 {
+    font-size: 47px;
+}
+
+.forjewelry1block4 {
+    font-size: 36px;
+}
+
+.discountright1block4 {
+    font-size: 35px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+
+.surprise {
+    width: 250px;
+    height: 250px;
+}
+
+.discountblock4 {
+    position: absolute;
+    bottom: 59px;
+    right: 167px;
+}
+
+.countdownwithtext {
+    flex-direction: column;
+}
+
+.toendtext {
+    text-align: center;
+    margin-right: 0px;
+
+}
+
+.clients-slider3 {
+    height: 220px;
+    width: 300px;
+}
+
+.block7 {
+        padding: 0px;
+
+}
+
+.test1 {
+top: -20px;
+}
+.tabs-place1 {
+        left: -125px;
+            top: 10px;
+}
+
+.phototab11 {
+    width: 230px;
+    height: 230px;
+}
+
+.nav-number {
+    width: 214px;
+        left: 14px;
+}
+
+.topsale1 {
+    text-align: center;
+}
+
+.discountleft1block4 {
+    font-size: 27px;
+    margin-right: 0px;
+}
+
+.discountright1block4 {
+    font-size: 29px;
+}
+
+.infa {
+    text-align: center;
+}
+}
